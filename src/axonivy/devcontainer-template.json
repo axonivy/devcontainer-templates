@@ -1,0 +1,11 @@
+{
+    "id": "axonivy",
+    "version": "1.0.0",
+    "name": "Axon Ivy",
+    "description": "Develop Axon Ivy projects. Includes JDK, Axon Ivy Engine, Java Extensions and Axon Ivy Extension.",
+    "documentationURL": "https://github.com/axonivy/devcontainer-templates/tree/master/src/axonivy",
+    "licenseURL": "https://github.com/axonivy/devcontainer-templates/blob/master/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}
