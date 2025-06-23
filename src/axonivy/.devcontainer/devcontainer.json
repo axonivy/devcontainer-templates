@@ -9,13 +9,19 @@
       "jdkDistro": "tem"
     },
     "ghcr.io/axonivy/devcontainer-features/engine:1": {
-      "downloadUrl": "https://dev.axonivy.com/permalink/dev/axonivy-engine-slim.zip",
+      // use "https://dev.axonivy.com/permalink/dev/axonivy-engine-slim.zip" as downloadUrl to try out newest features
+      // in combination with "axonivy.vscode-designer-13@prerelease" VS Code extension (see comment below)
+      "downloadUrl": "https://dev.axonivy.com/permalink/13/axonivy-engine-slim.zip",
       "engineHome": "/usr/lib/axonivy-engine"
     }
   },
   "customizations": {
     "vscode": {
-      "extensions": ["axonivy.vscode-designer-13", "vscjava.vscode-java-pack"],
+      "extensions": [
+        // use "axonivy.vscode-designer-13@prerelease" to try out newest features
+        "axonivy.vscode-designer-13",
+        "vscjava.vscode-java-pack"
+      ],
       "settings": {
         "engine.directory": "/usr/lib/axonivy-engine"
       }
